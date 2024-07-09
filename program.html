@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguasaan Program</title>
+    <link rel="stylesheet" href="program.css">
+</head>
+<body>
+    <h1>SKILL KU: </h1>
+    <form action="program.php" method="post" name="formpro" onsubmit="validateform(event)">
+        <table>
+            <tr>
+                <td><label for="program">Bahasa Pemrogramman Yang Dikuasai: </label></td>
+                <td><input type="text" name="program" id="program" required></td>
+            </tr>
+            <tr>
+                <td><label for="lunak">Kemahiran Perangkat Lunak: </label></td>
+                <td><input type="text" name="lunak" id="lunak" required></td>
+            </tr>
+            <tr>
+                <td><label for="bahasa">Kemahiran Bahasa Pemrogramman: </label></td>
+                <td><input type="text" name="bahasa" id="bahasa" required></td>
+            </tr>
+            <tr>
+                <td><label for="lama">Berapa lama Anda Mempelajari Bahasa Tersebut: </label></td>
+                <td><input type="text" name="lama" id="lama" required></td>
+            </tr>
+            <tr>
+                <td><label for="lain">Skill Lain: </label></td>
+                <td><textarea name="lain" id="lain" cols="30" rows="10" required></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Kirim">
+                    <input type="reset" value="Batal">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script src="scripts/program.js"></script>
+    <div style="text-align: center;">
+        <a href="index.html">Kembali</a>
+        </div>
+</body>
+</html>
